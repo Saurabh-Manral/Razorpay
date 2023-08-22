@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Razorpay</title>
 </head>
 <body>
-    <h1>This is tailwind heading</h1>
+    <!--nav bar-->
+    <nav class="bg-deepBlue">
+        <div class="relative flex w-[1080px] mx-auto items-center justify-between">
+            <a class="py-7 pr-7 cursor-pointer">
+                <img src="./images/logo.svg" width="125px" height="30px">
+            </a>
+
+            <div>
+                <ul class="flex space-x-6">
+                    <li class="text-white font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 group relative">
+                        <a href="#">Payments</a>
+                        <div class="bg-lightBlue w-full h-1 bottom-0 absolute hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 group relative">
+                        <a>Banking+</a>
+                        <div class="bg-lightBlue w-full h-1 bottom-0 absolute hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 group relative">
+                        <a>Line of Credit</a>
+                    </li>
+                    <li class="text-white font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 group relative">
+                        <a>Payroll</a>
+                    </li>
+                    <li class="text-white font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 group relative">
+                        <a>Resources</a>
+                        <div class="bg-lightBlue w-full h-1 bottom-0 absolute hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 group relative">
+                        <a>Support</a>
+                        <div class="bg-lightBlue w-full h-1 bottom-0 absolute hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                    <li class="text-white font-mullish py-7 cursor-pointer hover:text-lightBlue transition-all duration-200 group relative">
+                        <a>Pricing</a>
+                        <div class="bg-lightBlue w-full h-1 bottom-0 absolute hidden group-hover:block transition-all duration-200"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex gap-6">
+                <img src="./images/india-flag.svg" width="28px" height="20px">
+                <button class="bg-deepBlue text-white border rounded-sm py-3 px-5 font-mullish border-lightBlue text-sm font-bold">Log In</button>
+                <button class="py-3 px-4 font-mullish bg-white text-sm font-bold text-lightBlue300 border transition-all duration-200 hover:text-lightBlue500 flex rounded-sm">Sign Up</button>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
