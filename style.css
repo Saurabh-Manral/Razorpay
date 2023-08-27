@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.outerdiv:hover img.wave {
+    z-index: 200;
+}
+
+.outerdiv:hover img.logo {
+    background-color: rgb(75 148 237);
+}
