@@ -1,0 +1,1 @@
+This is the clone of Razorpay website using tailwind css. In this project we uses multiple prebuild classes of tailwind css.
